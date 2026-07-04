@@ -1,0 +1,82 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Uzair Waseem animated GitHub profile banner</title>
+  <desc id="desc">Animated dark technical banner for a secure full-stack engineer in Dublin.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#070B1A"/>
+      <stop offset="0.52" stop-color="#0B1736"/>
+      <stop offset="1" stop-color="#071B18"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#60A5FA" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22D3EE" stop-opacity="1"/>
+      <stop offset="1" stop-color="#34D399" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <radialGradient id="orb" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#22D3EE" stop-opacity="0.9"/>
+      <stop offset="0.55" stop-color="#3B82F6" stop-opacity="0.25"/>
+      <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+
+  <g opacity="0.28">
+    <path d="M0 80H1200" stroke="#93C5FD" stroke-opacity="0.2"/>
+    <path d="M0 140H1200" stroke="#93C5FD" stroke-opacity="0.18"/>
+    <path d="M0 200H1200" stroke="#93C5FD" stroke-opacity="0.16"/>
+    <path d="M0 260H1200" stroke="#93C5FD" stroke-opacity="0.14"/>
+    <path d="M150 0V360" stroke="#93C5FD" stroke-opacity="0.15"/>
+    <path d="M300 0V360" stroke="#93C5FD" stroke-opacity="0.13"/>
+    <path d="M450 0V360" stroke="#93C5FD" stroke-opacity="0.15"/>
+    <path d="M600 0V360" stroke="#93C5FD" stroke-opacity="0.13"/>
+    <path d="M750 0V360" stroke="#93C5FD" stroke-opacity="0.15"/>
+    <path d="M900 0V360" stroke="#93C5FD" stroke-opacity="0.13"/>
+    <path d="M1050 0V360" stroke="#93C5FD" stroke-opacity="0.15"/>
+  </g>
+
+  <circle cx="940" cy="120" r="160" fill="url(#orb)" opacity="0.55">
+    <animate attributeName="r" values="135;175;135" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.35;0.7;0.35" dur="6s" repeatCount="indefinite"/>
+  </circle>
+
+  <g filter="url(#glow)">
+    <path d="M-200 285 C 80 220, 175 325, 360 248 S 690 196, 875 248 S 1080 304, 1400 220" stroke="url(#line)" stroke-width="4" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="translate" from="-80 0" to="80 0" dur="5s" repeatCount="indefinite"/>
+    </path>
+    <path d="M-160 102 C 70 156, 220 50, 410 112 S 720 210, 920 112 S 1085 48, 1360 136" stroke="url(#line)" stroke-width="3" stroke-opacity="0.55" stroke-linecap="round">
+      <animateTransform attributeName="transform" type="translate" from="70 0" to="-70 0" dur="7s" repeatCount="indefinite"/>
+    </path>
+  </g>
+
+  <g opacity="0.85" font-family="SFMono-Regular, Consolas, Liberation Mono, Menlo, monospace" font-size="16">
+    <text x="70" y="78" fill="#67E8F9">&lt;secure_build&gt;</text>
+    <text x="965" y="292" fill="#86EFAC">deploy --clean</text>
+    <text x="760" y="62" fill="#93C5FD">AI // Cloud // Security</text>
+    <animate attributeName="opacity" values="0.55;1;0.55" dur="3.5s" repeatCount="indefinite"/>
+  </g>
+
+  <g>
+    <text x="70" y="158" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="-1.5">Uzair Waseem</text>
+    <text x="72" y="208" fill="#A7F3D0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="650">Secure Full-Stack Engineer · Dublin, Ireland</text>
+    <text x="72" y="246" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">React · Node.js · Python · Cloud Automation · AI Workflows · Security-Aware Delivery</text>
+  </g>
+
+  <g transform="translate(70 275)">
+    <rect width="178" height="38" rx="19" fill="#0F172A" stroke="#38BDF8" stroke-opacity="0.55"/>
+    <text x="22" y="25" fill="#BAE6FD" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" font-weight="700">uzairwaseem.com</text>
+  </g>
+
+  <g opacity="0.75">
+    <circle cx="1035" cy="190" r="5" fill="#34D399"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.4s" repeatCount="indefinite"/></circle>
+    <circle cx="1070" cy="220" r="4" fill="#22D3EE"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <circle cx="990" cy="230" r="3" fill="#93C5FD"><animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/></circle>
+  </g>
+</svg>
