@@ -145,8 +145,8 @@ Practical tools that solve real problems
 <div align="center">
 
 **Portfolio:** [uzairwaseem.com](https://uzairwaseem.com)  
-**LinkedIn:** [Uzair Waseem](https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME)  
-**Email:** [YOUR_EMAIL_HERE](mailto:YOUR_EMAIL_HERE)  
+**LinkedIn:** [Uzair Waseem](https://www.linkedin.com/in/uzair-waseem/)  
+**Email:** [uzairwaseem29@gmail.com](mailto:uzairwaseem29@gmail.com)  
 **Location:** Dublin, Ireland
 
 </div>
