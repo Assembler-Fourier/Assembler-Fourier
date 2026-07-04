@@ -116,8 +116,10 @@ These projects are being cleaned, documented, and uploaded properly before I lin
 ## GitHub activity
 
 <div align="center">
-  <img height="170" src="https://github-readme-stats.vercel.app/api?username=Assembler-Fourier&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats" />
-  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Assembler-Fourier&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
+
+[![GitHub profile](https://img.shields.io/badge/GitHub-Assembler--Fourier-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Assembler-Fourier)
+[![Repositories](https://img.shields.io/badge/Repositories-View%20work-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Assembler-Fourier?tab=repositories)
+
 </div>
 
 <br />
