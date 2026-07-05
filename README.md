@@ -27,17 +27,18 @@ I am an Ireland-based software engineer focused on full-stack/backend software d
 | Project | Purpose | Proof |
 | --- | --- | --- |
 | [SecureTaskOps](https://securetaskops-workflow-platform.vercel.app/) | Live workflow dashboard/API | Node.js, REST API, dashboard, risk scoring, tests, Docker, CI |
-| [SentryScan](https://github.com/Assembler-Fourier/sentryscan-threat-monitoring) | Security-event triage prototype | FastAPI, risk scoring, event modeling, tests |
-| [QA Automation Lab](https://github.com/Assembler-Fourier/qa-automation-lab) | Testing proof repo | Playwright API tests, CI reports, validation and regression checks |
-| [DocuMind RAG Assistant](https://github.com/Assembler-Fourier/documind-rag-assistant) | Document retrieval assistant | Python, chunking, ranking, citations, RAG-style workflow |
+| [SentryScan](https://sentryscan-threat-monitoring.vercel.app/) | Live security-event triage demo | FastAPI, dashboard, risk scoring, API docs, tests |
+| [QA Automation Lab](https://github.com/Assembler-Fourier/qa-automation-lab) | Testing proof repo | Playwright tests against local and live SecureTaskOps, CI reports |
+| [DocuMind RAG Assistant](https://documind-rag-assistant.vercel.app/) | Live document retrieval demo | FastAPI, Python, chunking, ranking, citations, tests |
 
 ## Recruiter Review Path
 
 1. Start with SecureTaskOps.
 2. Open the live SecureTaskOps demo.
-3. Review tests, Docker, CI, and README depth.
-4. Check DocuMind for AI/data retrieval proof.
-5. Download the CV from [uzairwaseem.com](https://uzairwaseem.com).
+3. Open SentryScan for FastAPI/security-event proof.
+4. Check QA Automation Lab for live-target Playwright CI.
+5. Check DocuMind for AI/data retrieval proof.
+6. Download the CV from [uzairwaseem.com](https://uzairwaseem.com).
 
 ## Core Stack
 
