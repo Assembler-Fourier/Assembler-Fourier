@@ -26,17 +26,17 @@ I am an Ireland-based software engineer focused on full-stack/backend software d
 
 | Project | Purpose | Proof |
 | --- | --- | --- |
-| [SecureTaskOps](https://github.com/Assembler-Fourier/securetaskops-workflow-platform) | Workflow/API platform | Node.js, REST API, tests, Docker, CI, security notes |
+| [SecureTaskOps](https://securetaskops-workflow-platform.vercel.app/) | Live workflow dashboard/API | Node.js, REST API, dashboard, risk scoring, tests, Docker, CI |
 | [SentryScan](https://github.com/Assembler-Fourier/sentryscan-threat-monitoring) | Security-event triage prototype | FastAPI, risk scoring, event modeling, tests |
 | [QA Automation Lab](https://github.com/Assembler-Fourier/qa-automation-lab) | Testing proof repo | Playwright API tests, CI reports, validation and regression checks |
-| [Portfolio Website](https://github.com/Assembler-Fourier/uzair-waseem-portfolio) | Recruiter proof hub | Next.js, SEO, Vercel, CV, project case studies |
+| [DocuMind RAG Assistant](https://github.com/Assembler-Fourier/documind-rag-assistant) | Document retrieval assistant | Python, chunking, ranking, citations, RAG-style workflow |
 
 ## Recruiter Review Path
 
 1. Start with SecureTaskOps.
-2. Check the live demo when available.
+2. Open the live SecureTaskOps demo.
 3. Review tests, Docker, CI, and README depth.
-4. Open the portfolio case study.
+4. Check DocuMind for AI/data retrieval proof.
 5. Download the CV from [uzairwaseem.com](https://uzairwaseem.com).
 
 ## Core Stack
