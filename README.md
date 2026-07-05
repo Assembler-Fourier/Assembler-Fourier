@@ -44,6 +44,7 @@ I am open to software engineering roles across Ireland and willing to relocate f
 
 | Project | Honest label | What it demonstrates |
 | --- | --- | --- |
+| [SecureTaskOps Workflow Platform](https://github.com/Assembler-Fourier/securetaskops-workflow-platform) | Flagship backend workflow build | Node.js API structure, risk/readiness scoring, tests, Docker, GitHub Actions, security notes |
 | [SentryScan Threat Monitoring](https://github.com/Assembler-Fourier/sentryscan-threat-monitoring) | Security-aware backend prototype | FastAPI structure, API design, risk scoring, security event modeling, testable logic |
 | [TaskForge Workflow App](https://github.com/Assembler-Fourier/taskforge-workflow-app) | Full-stack workflow project | Node.js routes, task-state modeling, product workflow thinking, setup documentation |
 | [SecureFlow Delivery Dashboard](https://github.com/Assembler-Fourier/secureflow-delivery-dashboard) | Dashboard case study | Sprint/readiness signal modeling, dashboard UX, QA awareness, stakeholder communication |
