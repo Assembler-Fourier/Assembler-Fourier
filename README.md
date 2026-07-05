@@ -1,154 +1,66 @@
 <div align="center">
-  <img src="./header.svg" alt="Uzair Waseem — secure full-stack engineer" width="100%" />
+  <img src="./header.svg" alt="Uzair Waseem - secure full-stack engineer in Dublin" width="100%" />
 </div>
 
 <br />
 
 <div align="center">
   <a href="https://uzairwaseem.com">
-    <img src="https://img.shields.io/badge/Portfolio-uzairwaseem.com-0ea5e9?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-uzairwaseem.com-14b8a6?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio website" />
   </a>
-  <a href="https://www.linkedin.com/in/YOUR-LINKEDIN-USERNAME">
-    <img src="https://img.shields.io/badge/LinkedIn-Uzair%20Waseem-2563eb?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  <a href="https://www.linkedin.com/in/uzair-waseem/">
+    <img src="https://img.shields.io/badge/LinkedIn-Uzair%20Waseem-2563eb?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn profile" />
   </a>
-  <a href="mailto:YOUR_EMAIL_HERE">
-    <img src="https://img.shields.io/badge/Email-Contact%20Me-10b981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  <a href="mailto:uzairwaseem29@gmail.com">
+    <img src="https://img.shields.io/badge/Email-uzairwaseem29%40gmail.com-10b981?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Uzair Waseem" />
   </a>
 </div>
 
-<br />
-
-<div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=26&duration=2600&pause=700&center=true&vCenter=true&width=900&lines=Secure+Full-Stack+Engineer;React+%7C+Node.js+%7C+Python+%7C+Cloud;AI+Workflows+%7C+Automation+%7C+Security-Aware+Delivery;Building+clean%2C+useful%2C+production-minded+software" alt="Typing animation" />
-</div>
-
 ---
 
-## About
+## Uzair Waseem
 
-I am **Uzair Waseem**, a software engineer based in **Dublin, Ireland**.
+I am a Dublin-based software, AI, cloud, automation and cybersecurity engineer building production-ready web products, data workflows, QA systems and secure delivery pipelines.
 
-I build full-stack web applications, backend APIs, automation workflows, and AI-assisted tools. My work focuses on clean implementation, readable code, secure application patterns, and systems that are practical enough to be used beyond a demo.
+I am currently focused on roles across Ireland, hybrid and remote markets:
 
-My strongest areas are:
+- Software Engineer / Full-stack Engineer
+- AI / Data Engineer
+- Cloud / DevOps Engineer
+- Cybersecurity Engineer
+- QA Automation Engineer
 
-- **Full-stack development** with React, Node.js, Express, Python, and REST APIs
-- **Backend and automation** using Python, FastAPI, scripts, data workflows, and service integration
-- **Security-aware engineering** including authentication, access control, validation, monitoring, and safe API design
-- **Cloud and DevOps workflows** using GitHub Actions, Docker, CI/CD, and deployment pipelines
-- **AI-assisted tools** involving document search, summarisation, retrieval workflows, and task automation
+## Selected Work
 
----
+These repositories are honest portfolio prototypes: small, runnable, documented projects that show how I approach product engineering, automation, security, delivery visibility and AI workflows.
 
-## Tech stack
+| Project | What it shows | Stack |
+| --- | --- | --- |
+| [SentryScan Threat Monitoring](https://github.com/Assembler-Fourier/sentryscan-threat-monitoring) | Risk-ranked security event triage with anomaly scoring and a FastAPI surface. | Python, FastAPI, security events, SIEM-style triage |
+| [TaskForge Workflow App](https://github.com/Assembler-Fourier/taskforge-workflow-app) | API-first workflow board with task states, sprint summary logic and a rendered product view. | JavaScript, Node.js, REST-style APIs, workflow modeling |
+| [SecureFlow Delivery Dashboard](https://github.com/Assembler-Fourier/secureflow-delivery-dashboard) | Delivery analytics for sprint health, blocker pressure, QA confidence and release readiness. | JavaScript, Node.js, dashboards, CI/CD signals |
+| [DocuMind RAG Assistant](https://github.com/Assembler-Fourier/documind-rag-assistant) | Retrieval-augmented document Q&A with transparent scoring and citations. | Python, RAG architecture, document retrieval |
+| [Portfolio Website](https://github.com/Assembler-Fourier/uzair-waseem-portfolio) | Recruiter-focused Next.js landing page deployed on Vercel at uzairwaseem.com. | Next.js, React, TypeScript, SEO, Vercel |
 
-<div align="center">
+## Stack Snapshot
 
-### Languages
+**Product and frontend:** React, Next.js, TypeScript, JavaScript, responsive UI, accessibility, SEO  
+**Backend and data:** Node.js, Python, FastAPI, REST APIs, SQL, PostgreSQL, MongoDB, dashboards  
+**Cloud and delivery:** AWS, Azure, Docker, Kubernetes, Terraform, GitHub Actions, CI/CD, Vercel  
+**Quality and security:** Playwright, Selenium, Cypress, API testing, QA automation, OWASP, secure SDLC, threat modeling  
+**AI and analytics:** PyTorch, scikit-learn, Hugging Face, LangChain, RAG, vector search, ETL, Power BI
 
-<img src="https://skillicons.dev/icons?i=js,ts,python,java,html,css" alt="Languages" />
+## Current Direction
 
-### Frontend
-
-<img src="https://skillicons.dev/icons?i=react,nextjs,redux,tailwind,bootstrap,vite" alt="Frontend" />
-
-### Backend, databases and APIs
-
-<img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,mongodb,postgres,mysql,firebase" alt="Backend, databases and APIs" />
-
-### Cloud, DevOps and tools
-
-<img src="https://skillicons.dev/icons?i=docker,githubactions,git,github,linux,aws,vercel,postman" alt="Cloud, DevOps and tools" />
-
-</div>
-
----
-
-## Featured work
-
-These projects are being cleaned, documented, and uploaded properly before I link them here. I prefer publishing complete repositories with code, screenshots, setup instructions, architecture notes, and honest project status instead of linking empty placeholders.
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>TaskForge</h3>
-      <p>Full-stack task and workflow management app with authentication, project boards, API-backed task tracking, and role-aware access patterns.</p>
-      <p><strong>Focus:</strong> React, Node.js, Express, database design, authentication, REST APIs</p>
-      <p><strong>Status:</strong> Documentation and repository cleanup in progress</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>SentryScan</h3>
-      <p>Security monitoring and risk triage concept for grouping, ranking, and reviewing application/security signals.</p>
-      <p><strong>Focus:</strong> Python, FastAPI, dashboards, security analysis, automation</p>
-      <p><strong>Status:</strong> Documentation and repository cleanup in progress</p>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>DocuMind</h3>
-      <p>AI-assisted document assistant for search, summarisation, and structured question-answering over uploaded documents.</p>
-      <p><strong>Focus:</strong> Python, retrieval workflows, embeddings, APIs, document processing</p>
-      <p><strong>Status:</strong> Documentation and repository cleanup in progress</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>SecureFlow</h3>
-      <p>Secure delivery workflow concept focused on CI/CD visibility, quality checks, release confidence, and practical DevSecOps habits.</p>
-      <p><strong>Focus:</strong> GitHub Actions, Docker, CI/CD, cloud deployment, security checks</p>
-      <p><strong>Status:</strong> Documentation and repository cleanup in progress</p>
-    </td>
-  </tr>
-</table>
-
----
-
-## Current build plan
-
-```text
-01. Clean and upload my strongest full-stack project first
-02. Add screenshots, setup steps, and architecture notes
-03. Add backend API documentation and environment examples
-04. Add CI/CD workflows where they make sense
-05. Keep pinned repositories aligned with my portfolio website
-```
-
----
-
-## GitHub activity
-
-<div align="center">
-
-[![GitHub profile](https://img.shields.io/badge/GitHub-Assembler--Fourier-111827?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Assembler-Fourier)
-[![Repositories](https://img.shields.io/badge/Repositories-View%20work-2563eb?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Assembler-Fourier?tab=repositories)
-
-</div>
-
-<br />
-
-<div align="center">
-  <img src="https://streak-stats.demolab.com?user=Assembler-Fourier&theme=tokyonight&hide_border=true" alt="GitHub streak" />
-</div>
-
----
-
-## What I care about
-
-```text
-Readable code over clever code
-Working systems over empty demos
-Security basics built in early
-Clear documentation for every serious project
-Practical tools that solve real problems
-```
-
----
+- MSc Cybersecurity at National College of Ireland, Dublin
+- BSc Computer Science from FAST NUCES
+- Building a public project set around software engineering, AI/data workflows, cloud automation, QA and secure delivery
+- Open to software, AI/data, cloud/DevOps, cybersecurity, QA automation, technical product and support roles
 
 ## Contact
 
-<div align="center">
+Portfolio: [uzairwaseem.com](https://uzairwaseem.com)  
+LinkedIn: [linkedin.com/in/uzair-waseem](https://www.linkedin.com/in/uzair-waseem/)  
+Email: [uzairwaseem29@gmail.com](mailto:uzairwaseem29@gmail.com)  
+Location: Dublin, Ireland
 
-**Portfolio:** [uzairwaseem.com](https://uzairwaseem.com)  
-**LinkedIn:** [Uzair Waseem](https://www.linkedin.com/in/uzair-waseem/)  
-**Email:** [uzairwaseem29@gmail.com](mailto:uzairwaseem29@gmail.com)  
-**Location:** Dublin, Ireland
-
-</div>

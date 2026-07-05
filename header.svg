@@ -64,9 +64,9 @@
   </g>
 
   <g>
-    <text x="70" y="158" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="-1.5">Uzair Waseem</text>
-    <text x="72" y="208" fill="#A7F3D0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="650">Secure Full-Stack Engineer · Dublin, Ireland</text>
-    <text x="72" y="246" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">React · Node.js · Python · Cloud Automation · AI Workflows · Security-Aware Delivery</text>
+    <text x="70" y="158" fill="#E5E7EB" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="54" font-weight="800" letter-spacing="0">Uzair Waseem</text>
+    <text x="72" y="208" fill="#A7F3D0" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="25" font-weight="650">Secure Full-Stack Engineer - Dublin, Ireland</text>
+    <text x="72" y="246" fill="#CBD5E1" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="19">React - Node.js - Python - Cloud Automation - AI Workflows - Security-Aware Delivery</text>
   </g>
 
   <g transform="translate(70 275)">
