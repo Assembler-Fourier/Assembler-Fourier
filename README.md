@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="./header.svg" alt="Uzair Waseem - secure full-stack engineer in Dublin" width="100%" />
+  <img src="./header.svg" alt="Uzair Waseem - Ireland-based full-stack software engineer" width="100%" />
 </div>
 
 <br />
@@ -18,49 +18,59 @@
 
 ---
 
-## Uzair Waseem
+## About Me
 
-I am a Dublin-based software, AI, cloud, automation and cybersecurity engineer building production-ready web products, data workflows, QA systems and secure delivery pipelines.
+Hi, I am Uzair Waseem, an Ireland-based software engineer focused on full-stack development, backend APIs, automation, testing, and secure delivery.
 
-I am currently focused on roles across Ireland, hybrid and remote markets:
+I build runnable portfolio projects with React, Next.js, TypeScript, Node.js, Python, FastAPI, SQL, Docker, and GitHub Actions. My MSc in Cybersecurity shapes how I think about secure SDLC, authentication, risk, reliability, and maintainable systems.
 
-- Software Engineer / Full-stack Engineer
-- AI / Data Engineer
-- Cloud / DevOps Engineer
-- Cybersecurity Engineer
-- QA Automation Engineer
+I am open to software engineering roles across Ireland and willing to relocate for the right opportunity.
 
-## Selected Work
+## Current Focus
 
-These repositories are honest portfolio prototypes: small, runnable, documented projects that show how I approach product engineering, automation, security, delivery visibility and AI workflows.
+- Primary target: Software Engineer, Full-stack Engineer, Backend Engineer
+- Supporting target: QA Automation Engineer and security-aware software roles
+- Location: Ireland-based, open to Dublin, Cork, Galway, Limerick, Waterford, and remote/hybrid teams in Ireland
+- Differentiator: computer science foundation plus cybersecurity-aware software delivery
 
-| Project | What it shows | Stack |
+## Core Stack
+
+**Primary:** React, Next.js, TypeScript, JavaScript, Node.js, Express, Python, FastAPI, SQL, PostgreSQL, MongoDB, Docker, GitHub Actions, REST APIs, Git  
+**Testing:** Playwright, Selenium, API testing, unit testing, integration testing, test automation  
+**Security-aware development:** OWASP basics, secure SDLC, authentication, authorization, input validation, threat modeling basics  
+**Working knowledge:** AWS basics, Azure basics, CI/CD, Linux, cloud deployment, RAG prototypes, LangChain basics, vector search basics
+
+## Featured Projects
+
+| Project | Honest label | What it demonstrates |
 | --- | --- | --- |
-| [SentryScan Threat Monitoring](https://github.com/Assembler-Fourier/sentryscan-threat-monitoring) | Risk-ranked security event triage with anomaly scoring and a FastAPI surface. | Python, FastAPI, security events, SIEM-style triage |
-| [TaskForge Workflow App](https://github.com/Assembler-Fourier/taskforge-workflow-app) | API-first workflow board with task states, sprint summary logic and a rendered product view. | JavaScript, Node.js, REST-style APIs, workflow modeling |
-| [SecureFlow Delivery Dashboard](https://github.com/Assembler-Fourier/secureflow-delivery-dashboard) | Delivery analytics for sprint health, blocker pressure, QA confidence and release readiness. | JavaScript, Node.js, dashboards, CI/CD signals |
-| [DocuMind RAG Assistant](https://github.com/Assembler-Fourier/documind-rag-assistant) | Retrieval-augmented document Q&A with transparent scoring and citations. | Python, RAG architecture, document retrieval |
-| [Portfolio Website](https://github.com/Assembler-Fourier/uzair-waseem-portfolio) | Recruiter-focused Next.js landing page deployed on Vercel at uzairwaseem.com. | Next.js, React, TypeScript, SEO, Vercel |
+| [SentryScan Threat Monitoring](https://github.com/Assembler-Fourier/sentryscan-threat-monitoring) | Security-aware backend prototype | FastAPI structure, API design, risk scoring, security event modeling, testable logic |
+| [TaskForge Workflow App](https://github.com/Assembler-Fourier/taskforge-workflow-app) | Full-stack workflow project | Node.js routes, task-state modeling, product workflow thinking, setup documentation |
+| [SecureFlow Delivery Dashboard](https://github.com/Assembler-Fourier/secureflow-delivery-dashboard) | Dashboard case study | Sprint/readiness signal modeling, dashboard UX, QA awareness, stakeholder communication |
+| [DocuMind RAG Assistant](https://github.com/Assembler-Fourier/documind-rag-assistant) | AI/RAG project exposure | Python engineering, document chunking, retrieval ranking, citation handling |
+| [Portfolio Website](https://github.com/Assembler-Fourier/uzair-waseem-portfolio) | Live recruiter portfolio | Next.js, React, TypeScript, SEO metadata, Vercel deployment, downloadable CV |
 
-## Stack Snapshot
+## What I Care About Technically
 
-**Product and frontend:** React, Next.js, TypeScript, JavaScript, responsive UI, accessibility, SEO  
-**Backend and data:** Node.js, Python, FastAPI, REST APIs, SQL, PostgreSQL, MongoDB, dashboards  
-**Cloud and delivery:** AWS, Azure, Docker, Kubernetes, Terraform, GitHub Actions, CI/CD, Vercel  
-**Quality and security:** Playwright, Selenium, Cypress, API testing, QA automation, OWASP, secure SDLC, threat modeling  
-**AI and analytics:** PyTorch, scikit-learn, Hugging Face, LangChain, RAG, vector search, ETL, Power BI
+- Clear APIs and predictable data flow
+- Tests that prove the important logic runs
+- Setup docs that let reviewers run the project quickly
+- Security basics such as authentication, authorization, input validation, and secrets handling
+- Honest tradeoffs and known limitations instead of inflated claims
 
-## Current Direction
+## How To Review My Projects
 
-- MSc Cybersecurity at National College of Ireland, Dublin
-- BSc Computer Science from FAST NUCES
-- Building a public project set around software engineering, AI/data workflows, cloud automation, QA and secure delivery
-- Open to software, AI/data, cloud/DevOps, cybersecurity, QA automation, technical product and support roles
+Most repositories are portfolio projects or runnable prototypes. The fastest review path is:
+
+1. Read the README for scope and limitations.
+2. Check local setup and test commands.
+3. Look at API routes or core service logic.
+4. Review Docker/GitHub Actions where available.
+5. Compare the project to the case study on [uzairwaseem.com](https://uzairwaseem.com).
 
 ## Contact
 
 Portfolio: [uzairwaseem.com](https://uzairwaseem.com)  
+CV: [uzairwaseem.com/Uzair-Waseem-CV.pdf](https://uzairwaseem.com/Uzair-Waseem-CV.pdf)  
 LinkedIn: [linkedin.com/in/uzair-waseem](https://www.linkedin.com/in/uzair-waseem/)  
-Email: [uzairwaseem29@gmail.com](mailto:uzairwaseem29@gmail.com)  
-Location: Dublin, Ireland
-
+Email: [uzairwaseem29@gmail.com](mailto:uzairwaseem29@gmail.com)
