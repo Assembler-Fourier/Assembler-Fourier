@@ -1,51 +1,40 @@
-# Hi, I am Uzair Waseem
+# Uzair Waseem
 
-Software Engineer | Full-Stack & Backend | Testing & Security-Aware Delivery
+**Dublin-based Software Engineer | Full-Stack and Backend | QA Automation | Security-Aware Delivery**
 
-I am an Ireland-based software engineer focused on full-stack/backend software delivery, automated testing, Docker/CI workflows, and secure engineering practices.
+I build product software around real workflows: workforce scheduling, shared-home operations, learning platforms, backend APIs, automated tests, and secure delivery boundaries.
 
-## What I Build
+My strongest stack is TypeScript, React, Next.js, Node.js, PostgreSQL, Playwright, Docker, and GitHub Actions. I am completing an MSc in Cybersecurity at the National College of Ireland, which strengthens how I approach authentication, authorization, data isolation, testing, and release risk.
 
-- Full-stack web applications
-- Backend APIs
-- Workflow platforms
-- Automated test suites
-- Security-aware software features
+## Start Here
 
-## Current Focus
-
-- Production-style backend/full-stack projects
-- PostgreSQL-backed APIs
-- Authentication and role-based access
-- Dockerized development environments
-- GitHub Actions CI
-- Playwright/API testing
-- Secure SDLC practices
-
-## Featured Work
-
-| Project | Purpose | Proof |
+| Project | What it solves | Engineering proof |
 | --- | --- | --- |
-| [SecureTaskOps](https://securetaskops-workflow-platform.vercel.app/) | Live workflow dashboard/API | Node.js, REST API, dashboard, risk scoring, tests, Docker, CI |
-| [SentryScan](https://sentryscan-threat-monitoring.vercel.app/) | Live security-event triage demo | FastAPI, dashboard, risk scoring, API docs, tests |
-| [QA Automation Lab](https://github.com/Assembler-Fourier/qa-automation-lab) | Testing proof repo | Playwright tests against local and live SecureTaskOps, CI reports |
-| [DocuMind RAG Assistant](https://documind-rag-assistant.vercel.app/) | Live document retrieval demo | FastAPI, Python, chunking, ranking, citations, tests |
+| [Roster Command](https://employee-roster-command.vercel.app/?demo=1) | Turns a spreadsheet-heavy roster process into ranked coverage gaps, explainable cover suggestions, and manager/employee workflows | TypeScript, React, Node.js APIs, Supabase PostgreSQL, Vitest, Playwright, PWA, passing CI, privacy-safe demo |
+| [HouseFair](https://housemates-sand.vercel.app) | Coordinates chores, groceries, shared expenses, and calmer issue handling across a shared home | Next.js 16, React 19, TypeScript, Supabase Auth/PostgreSQL/RLS, Zod, mobile Playwright, passing CI |
+| [Irish Theory Test Coach](https://irish-theory-test-coach-assembler-fourier-job-work.vercel.app) | Independent pre-launch learning product with timed mocks, progress coaching, protected premium flows, and operator tools | Vercel Functions, Neon PostgreSQL, Stripe sandbox, passwordless sessions, content QA, accessibility and security checks |
 
 ## Recruiter Review Path
 
-1. Start with SecureTaskOps.
-2. Open the live SecureTaskOps demo.
-3. Open SentryScan for FastAPI/security-event proof.
-4. Check QA Automation Lab for live-target Playwright CI.
-5. Check DocuMind for AI/data retrieval proof.
-6. Download the CV from [uzairwaseem.com](https://uzairwaseem.com).
+1. Open the [Roster Command demo](https://employee-roster-command.vercel.app/?demo=1), then read its [privacy boundary and source](https://github.com/Assembler-Fourier/employee-roster-command).
+2. Review [HouseFair](https://github.com/Assembler-Fourier/housefair-ai) for a complete Next.js, PostgreSQL, authentication, PWA, and mobile-testing story.
+3. Review [Irish Theory Test Coach](https://github.com/Assembler-Fourier/irish-theory-test-coach) for serverless APIs, payments, release evidence, accessibility, and secure premium-content handling.
+4. See my genuine team AI work in [Style Sense AI Wardrobe](https://github.com/mbg11rao/Style-Sense-AI-powerd-Wardrobe-FYP-), where I contributed to the final-year deep-learning and image-recognition project.
+5. Download the current one-page CV from [uzairwaseem.com](https://uzairwaseem.com/Uzair-Waseem-CV.pdf).
 
 ## Core Stack
 
-React, Next.js, TypeScript, JavaScript, Node.js, Express, Python, FastAPI, PostgreSQL, MongoDB, SQL, REST APIs, Docker, Docker Compose, GitHub Actions, CI/CD, Linux, Playwright, Selenium, Cypress, API testing, OWASP basics, secure SDLC.
+`TypeScript` `React` `Next.js` `Node.js` `Express` `Python` `FastAPI` `PostgreSQL` `Supabase` `Neon` `REST APIs` `Docker` `GitHub Actions` `Playwright` `Vitest` `Pytest` `PWA` `Stripe` `OWASP` `Secure SDLC`
+
+## Current Status
+
+- Based in Dublin, Ireland
+- Open to full-stack, backend, graduate software, and QA automation roles across Ireland
+- Open to hybrid and remote teams
+- MSc Cybersecurity, National College of Ireland, 2025-2026
 
 ## Contact
 
-- Portfolio: [uzairwaseem.com](https://uzairwaseem.com)
+- Portfolio and CV: [uzairwaseem.com](https://uzairwaseem.com)
 - LinkedIn: [linkedin.com/in/uzair-waseem](https://www.linkedin.com/in/uzair-waseem/)
 - Email: [uzairwaseem29@gmail.com](mailto:uzairwaseem29@gmail.com)
