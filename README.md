@@ -6,13 +6,21 @@ I build product software around real workflows: workforce scheduling, shared-hom
 
 My strongest stack is TypeScript, React, Next.js, Node.js, PostgreSQL, Playwright, Docker, and GitHub Actions. I am completing an MSc in Cybersecurity at the National College of Ireland, which strengthens how I approach authentication, authorization, data isolation, testing, and release risk.
 
+<a href="https://uzairwaseem.com">
+  <img src="https://uzairwaseem.com/opengraph-image" alt="Uzair Waseem - Dublin-based full-stack software engineer" width="100%" />
+</a>
+
 ## Start Here
+
+[![Roster Command CI](https://github.com/Assembler-Fourier/employee-roster-command/actions/workflows/ci.yml/badge.svg)](https://github.com/Assembler-Fourier/employee-roster-command/actions/workflows/ci.yml)
+[![HouseFair CI](https://github.com/Assembler-Fourier/housefair-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/Assembler-Fourier/housefair-ai/actions/workflows/ci.yml)
+[![Theory Coach security](https://github.com/Assembler-Fourier/irish-theory-test-coach/actions/workflows/security.yml/badge.svg)](https://github.com/Assembler-Fourier/irish-theory-test-coach/actions/workflows/security.yml)
 
 | Project | What it solves | Engineering proof |
 | --- | --- | --- |
-| [Roster Command](https://employee-roster-command.vercel.app/?demo=1) | Turns a spreadsheet-heavy roster process into ranked coverage gaps, explainable cover suggestions, and manager/employee workflows | TypeScript, React, Node.js APIs, Supabase PostgreSQL, Vitest, Playwright, PWA, passing CI, privacy-safe demo |
-| [HouseFair](https://housemates-sand.vercel.app) | Coordinates chores, groceries, shared expenses, and calmer issue handling across a shared home | Next.js 16, React 19, TypeScript, Supabase Auth/PostgreSQL/RLS, Zod, mobile Playwright, passing CI |
-| [Irish Theory Test Coach](https://irish-theory-test-coach-assembler-fourier-job-work.vercel.app) | Independent pre-launch learning product with timed mocks, progress coaching, protected premium flows, and operator tools | Vercel Functions, Neon PostgreSQL, Stripe sandbox, passwordless sessions, content QA, accessibility and security checks |
+| [Roster Command](https://employee-roster-command.vercel.app/?demo=1) / [source](https://github.com/Assembler-Fourier/employee-roster-command) | Turns a spreadsheet-heavy roster process into ranked coverage gaps, explainable cover suggestions, and manager/employee workflows | TypeScript, React, Node.js APIs, Supabase PostgreSQL, Vitest, Playwright, PWA, passing CI, privacy-safe demo |
+| [HouseFair](https://housemates-sand.vercel.app) / [source](https://github.com/Assembler-Fourier/housefair-ai) | Coordinates chores, groceries, shared expenses, and calmer issue handling across a shared home | Next.js 16, React 19, TypeScript, Supabase Auth/PostgreSQL/RLS, Zod, mobile Playwright, passing CI |
+| [Irish Theory Test Coach](https://irish-theory-test-coach-assembler-fourier-job-work.vercel.app) / [source](https://github.com/Assembler-Fourier/irish-theory-test-coach) | Independent pre-launch learning product with timed mocks, progress coaching, protected premium flows, and operator tools | Vercel Functions, Neon PostgreSQL, Stripe sandbox, passwordless sessions, content QA, accessibility and security checks |
 
 ## Recruiter Review Path
 
