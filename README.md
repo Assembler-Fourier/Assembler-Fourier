@@ -1,6 +1,6 @@
 # Uzair Waseem
 
-**Dublin-based Software Engineer | Full-Stack and Backend | QA Automation | Security-Aware Delivery**
+**Dublin-based Full-Stack / Backend Engineer | TypeScript, React, Node.js, PostgreSQL | Playwright QA**
 
 I build product software around real workflows: workforce scheduling, shared-home operations, learning platforms, backend APIs, automated tests, and secure delivery boundaries.
 
@@ -15,20 +15,23 @@ My strongest stack is TypeScript, React, Next.js, Node.js, PostgreSQL, Playwrigh
 [![Roster Command CI](https://github.com/Assembler-Fourier/employee-roster-command/actions/workflows/ci.yml/badge.svg)](https://github.com/Assembler-Fourier/employee-roster-command/actions/workflows/ci.yml)
 [![HouseFair CI](https://github.com/Assembler-Fourier/housefair-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/Assembler-Fourier/housefair-ai/actions/workflows/ci.yml)
 [![Theory Coach security](https://github.com/Assembler-Fourier/irish-theory-test-coach/actions/workflows/security.yml/badge.svg)](https://github.com/Assembler-Fourier/irish-theory-test-coach/actions/workflows/security.yml)
+[![QA Automation Lab](https://github.com/Assembler-Fourier/qa-automation-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/Assembler-Fourier/qa-automation-lab/actions/workflows/ci.yml)
 
 | Project | What it solves | Engineering proof |
 | --- | --- | --- |
 | [Roster Command](https://employee-roster-command.vercel.app/?demo=1) / [source](https://github.com/Assembler-Fourier/employee-roster-command) | Turns a spreadsheet-heavy roster process into ranked coverage gaps, explainable cover suggestions, and manager/employee workflows | TypeScript, React, Node.js APIs, Supabase PostgreSQL, Vitest, Playwright, PWA, passing CI, privacy-safe demo |
 | [HouseFair](https://housemates-sand.vercel.app) / [source](https://github.com/Assembler-Fourier/housefair-ai) | Coordinates chores, groceries, shared expenses, and calmer issue handling across a shared home | Next.js 16, React 19, TypeScript, Supabase Auth/PostgreSQL/RLS, Zod, mobile Playwright, passing CI |
 | [Irish Theory Test Coach](https://irish-theory-test-coach-assembler-fourier-job-work.vercel.app) / [source](https://github.com/Assembler-Fourier/irish-theory-test-coach) | Independent pre-launch learning product with timed mocks, progress coaching, protected premium flows, and operator tools | Vercel Functions, Neon PostgreSQL, Stripe sandbox, passwordless sessions, content QA, accessibility and security checks |
+| [QA Automation Lab](https://github.com/Assembler-Fourier/qa-automation-lab) | Treats public pages, APIs, SEO routes, CV delivery, case studies, and release boundaries as executable contracts | Playwright APIRequestContext, 15 checks, three GitHub Actions jobs, HTML reports, local and live targets |
 
 ## Recruiter Review Path
 
 1. Open the [Roster Command demo](https://employee-roster-command.vercel.app/?demo=1), then read its [privacy boundary and source](https://github.com/Assembler-Fourier/employee-roster-command).
 2. Review [HouseFair](https://github.com/Assembler-Fourier/housefair-ai) for a complete Next.js, PostgreSQL, authentication, PWA, and mobile-testing story.
 3. Review [Irish Theory Test Coach](https://github.com/Assembler-Fourier/irish-theory-test-coach) for serverless APIs, payments, release evidence, accessibility, and secure premium-content handling.
-4. See my genuine team AI work in [Style Sense AI Wardrobe](https://github.com/mbg11rao/Style-Sense-AI-powerd-Wardrobe-FYP-), where I contributed to the final-year deep-learning and image-recognition project.
-5. Download the current one-page CV from [uzairwaseem.com](https://uzairwaseem.com/Uzair-Waseem-CV.pdf).
+4. Inspect [QA Automation Lab](https://github.com/Assembler-Fourier/qa-automation-lab) for API, deployment, SEO, artifact, and release-contract testing across local and live targets.
+5. See my genuine team AI work in [Style Sense AI Wardrobe](https://github.com/mbg11rao/Style-Sense-AI-powerd-Wardrobe-FYP-), where I contributed to the final-year deep-learning and image-recognition project.
+6. Download the current one-page CV from [uzairwaseem.com](https://uzairwaseem.com/Uzair-Waseem-CV.pdf).
 
 ## Core Stack
 
