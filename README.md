@@ -1,51 +1,51 @@
 # Uzair Waseem
 
-**Dublin-based Full-Stack / Backend Engineer | TypeScript, React, Node.js, PostgreSQL | Playwright QA**
+**Software Engineer | TypeScript, React, Node.js and PostgreSQL | Tested Full-Stack Products and Backend APIs**
 
-I build product software around real workflows: workforce scheduling, shared-home operations, learning platforms, backend APIs, automated tests, and secure delivery boundaries.
+Dublin-based software engineer building product workflows, backend APIs and automated quality gates. My strongest work combines TypeScript product engineering with Playwright verification, CI and security-aware decisions around authentication, authorization and data isolation.
 
-My strongest stack is TypeScript, React, Next.js, Node.js, PostgreSQL, Playwright, Docker, and GitHub Actions. I am completing an MSc in Cybersecurity at the National College of Ireland, which strengthens how I approach authentication, authorization, data isolation, testing, and release risk.
-
-<a href="https://uzairwaseem.com">
-  <img src="https://uzairwaseem.com/opengraph-image" alt="Uzair Waseem - Dublin-based full-stack software engineer" width="100%" />
-</a>
-
-## Start Here
-
-[![Roster Command CI](https://github.com/Assembler-Fourier/employee-roster-command/actions/workflows/ci.yml/badge.svg)](https://github.com/Assembler-Fourier/employee-roster-command/actions/workflows/ci.yml)
-[![HouseFair CI](https://github.com/Assembler-Fourier/housefair-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/Assembler-Fourier/housefair-ai/actions/workflows/ci.yml)
-[![Theory Coach security](https://github.com/Assembler-Fourier/irish-theory-test-coach/actions/workflows/security.yml/badge.svg)](https://github.com/Assembler-Fourier/irish-theory-test-coach/actions/workflows/security.yml)
-[![QA Automation Lab](https://github.com/Assembler-Fourier/qa-automation-lab/actions/workflows/ci.yml/badge.svg)](https://github.com/Assembler-Fourier/qa-automation-lab/actions/workflows/ci.yml)
-
-| Project | What it solves | Engineering proof |
-| --- | --- | --- |
-| [Roster Command](https://employee-roster-command.vercel.app/?demo=1) / [source](https://github.com/Assembler-Fourier/employee-roster-command) | Turns a spreadsheet-heavy roster process into ranked coverage gaps, explainable cover suggestions, and manager/employee workflows | TypeScript, React, Node.js APIs, Supabase PostgreSQL, Vitest, Playwright, PWA, passing CI, privacy-safe demo |
-| [HouseFair](https://housemates-sand.vercel.app) / [source](https://github.com/Assembler-Fourier/housefair-ai) | Coordinates chores, groceries, shared expenses, and calmer issue handling across a shared home | Next.js 16, React 19, TypeScript, Supabase Auth/PostgreSQL/RLS, Zod, mobile Playwright, passing CI |
-| [Irish Theory Test Coach](https://irish-theory-test-coach-assembler-fourier-job-work.vercel.app) / [source](https://github.com/Assembler-Fourier/irish-theory-test-coach) | Independent pre-launch learning product with timed mocks, progress coaching, protected premium flows, and operator tools | Vercel Functions, Neon PostgreSQL, Stripe sandbox, passwordless sessions, content QA, accessibility and security checks |
-| [QA Automation Lab](https://github.com/Assembler-Fourier/qa-automation-lab) | Treats public pages, APIs, SEO routes, CV delivery, case studies, and release boundaries as executable contracts | Playwright APIRequestContext, 15 checks, three GitHub Actions jobs, HTML reports, local and live targets |
-
-## Recruiter Review Path
-
-1. Open the [Roster Command demo](https://employee-roster-command.vercel.app/?demo=1), then read its [privacy boundary and source](https://github.com/Assembler-Fourier/employee-roster-command).
-2. Review [HouseFair](https://github.com/Assembler-Fourier/housefair-ai) for a complete Next.js, PostgreSQL, authentication, PWA, and mobile-testing story.
-3. Review [Irish Theory Test Coach](https://github.com/Assembler-Fourier/irish-theory-test-coach) for serverless APIs, payments, release evidence, accessibility, and secure premium-content handling.
-4. Inspect [QA Automation Lab](https://github.com/Assembler-Fourier/qa-automation-lab) for API, deployment, SEO, artifact, and release-contract testing across local and live targets.
-5. See my genuine team AI work in [Style Sense AI Wardrobe](https://github.com/mbg11rao/Style-Sense-AI-powerd-Wardrobe-FYP-), where I contributed to the final-year deep-learning and image-recognition project.
-6. Download the current one-page CV from [uzairwaseem.com](https://uzairwaseem.com/Uzair-Waseem-CV.pdf).
+[Portfolio](https://uzairwaseem.com) | [LinkedIn](https://www.linkedin.com/in/uzair-waseem/) | [Software CV](https://uzairwaseem.com/Uzair-Waseem-CV.pdf)
 
 ## Core Stack
 
-`TypeScript` `React` `Next.js` `Node.js` `Express` `Python` `FastAPI` `PostgreSQL` `Supabase` `Neon` `REST APIs` `Docker` `GitHub Actions` `Playwright` `Vitest` `Pytest` `PWA` `Stripe` `OWASP` `Secure SDLC`
+`TypeScript` `JavaScript` `React` `Next.js` `Node.js` `REST APIs` `PostgreSQL` `Supabase` `Playwright` `Vitest` `Python` `FastAPI` `Docker` `GitHub Actions`
 
-## Current Status
+## Flagship Work
 
-- Based in Dublin, Ireland
-- Open to full-stack, backend, graduate software, and QA automation roles across Ireland
-- Open to hybrid and remote teams
-- MSc Cybersecurity, National College of Ireland, 2025-2026
+| Project | What it demonstrates | Public status |
+| --- | --- | --- |
+| **[HouseFair](https://housemates-sand.vercel.app)** / [source](https://github.com/Assembler-Fourier/housefair-ai) | Next.js App Router, household-scoped server checks, Supabase Auth/PostgreSQL/RLS, validation, PWA behavior and 12 mobile Playwright checks | Live free early access |
+| **[Roster Command](https://employee-roster-command.vercel.app/?demo=1)** / [public engineering extract](https://github.com/Assembler-Fourier/employee-roster-command) | Scheduling domain logic for overlap, overnight and multi-day shifts, restrictions and deterministic cover ranking, backed by 23 tests | Selected sanitised logic; full application remains private |
+| **[Irish Theory Test Coach](https://irishtheorycoach.ie)** / [source](https://github.com/Assembler-Fourier/irish-theory-test-coach) | Timed mock exams, passwordless sessions, protected adapters, PWA/accessibility checks and a validated 1,277-item content pipeline | Pre-launch preview; real provider, payment and legal/content evidence remain launch gates |
+| **[QA Automation Lab](https://github.com/Assembler-Fourier/qa-automation-lab)** | 26 Playwright browser/API contracts using fixtures, page objects, negative tests, route interception, axe-core, traces and CI artifacts | Public CI-backed test suite; live writes are disabled by default |
+| **[Engineering Portfolio](https://uzairwaseem.com)** / [source](https://github.com/Assembler-Fourier/uzair-waseem-portfolio) | Next.js metadata/JSON-LD, recruiter-path case studies, responsive checks, PDF delivery and nonblank WebGL verification | Live portfolio; 9 production browser checks |
+| **[SecureTaskOps](https://securetaskops-workflow-platform.vercel.app)** / [source](https://github.com/Assembler-Fourier/securetaskops-workflow-platform) | Node.js workflow APIs, explainable release-risk scoring, validation, tests, Docker and CI | Deployed product demo; in-memory data, no authentication or persistence |
+
+## Reviewer Path
+
+1. Start with HouseFair for the strongest full-stack architecture and mobile test evidence.
+2. Inspect the Roster Command public extract for domain modeling and edge-case tests without private employer or employee data.
+3. Review Theory Coach for a substantial pre-launch implementation whose remaining commercial blockers are documented rather than hidden.
+4. Open QA Automation Lab for browser, API, accessibility, mocking and failure-artifact evidence.
+5. Use the portfolio case studies to connect each claim to source, CI and current limitations.
+
+## Testing And Delivery Practices
+
+- Pull-request checks for linting, type checking, unit tests, builds and browser tests where the repository supports them.
+- Read-only live smoke tests separated from isolated writable test targets.
+- Stable role/label locators, synthetic fixtures and deterministic assertions instead of shared production data.
+- Security-sensitive production checks separated from public CI when credentials are required.
+- Traces, screenshots and reports retained when browser checks fail.
+
+## Current Focus
+
+- Graduate and junior software, full-stack and backend roles across Ireland
+- Graduate and junior QA automation or SDET roles
+- Security-aware product engineering, supported by MSc Cybersecurity study at the National College of Ireland
+- Dublin-based; open to Ireland-based hybrid and remote teams
 
 ## Contact
 
-- Portfolio and CV: [uzairwaseem.com](https://uzairwaseem.com)
+- Portfolio: [uzairwaseem.com](https://uzairwaseem.com)
 - LinkedIn: [linkedin.com/in/uzair-waseem](https://www.linkedin.com/in/uzair-waseem/)
 - Email: [uzairwaseem29@gmail.com](mailto:uzairwaseem29@gmail.com)
