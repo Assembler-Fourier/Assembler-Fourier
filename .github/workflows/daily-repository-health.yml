@@ -1,0 +1,168 @@
+name: Daily repository health
+
+"on":
+  schedule:
+    # Two off-peak attempts; the date check below permits only one commit per UTC day.
+    - cron: "17 12 * * *"
+    - cron: "47 20 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - .github/workflows/daily-repository-health.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-repository-health
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    name: Scan public portfolio
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Check out the profile repository
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+
+      - name: Scan repositories and record the daily snapshot
+        shell: bash
+        env:
+          API_TOKEN: ${{ github.token }}
+          DEFAULT_BRANCH: ${{ github.event.repository.default_branch }}
+          PROFILE_OWNER: Assembler-Fourier
+        run: |
+          set -euo pipefail
+
+          report_dir=".github/health-reports"
+          history_file="$report_dir/history.jsonl"
+          latest_file="$report_dir/latest.md"
+          today="$(date -u +%F)"
+          scanned_at="$(date -u +%Y-%m-%dT%H:%M:%SZ)"
+
+          mkdir -p "$report_dir"
+          touch "$history_file"
+
+          if [[ -s "$history_file" ]] &&
+             jq -e --arg date "$today" 'select(.date == $date)' "$history_file" >/dev/null 2>&1; then
+            echo "A health snapshot already exists for $today."
+            exit 0
+          fi
+
+          repos_json='[]'
+          page=1
+
+          while :; do
+            page_json="$(
+              curl --fail --silent --show-error --location \
+                --header "Accept: application/vnd.github+json" \
+                --header "Authorization: Bearer $API_TOKEN" \
+                --header "X-GitHub-Api-Version: 2022-11-28" \
+                "https://api.github.com/users/$PROFILE_OWNER/repos?type=owner&sort=full_name&per_page=100&page=$page"
+            )"
+
+            page_count="$(jq 'length' <<<"$page_json")"
+            repos_json="$(jq -c --argjson next "$page_json" '. + $next' <<<"$repos_json")"
+
+            if ((page_count < 100)); then
+              break
+            fi
+
+            page=$((page + 1))
+          done
+
+          repository_count="$(jq 'length' <<<"$repos_json")"
+          active_count="$(jq '[.[] | select(.archived == false)] | length' <<<"$repos_json")"
+          archived_count="$(jq '[.[] | select(.archived == true)] | length' <<<"$repos_json")"
+          fork_count="$(jq '[.[] | select(.fork == true)] | length' <<<"$repos_json")"
+          checked_count="$(jq '[.[] | select(.size > 0 and .default_branch != null)] | length' <<<"$repos_json")"
+          total_stars="$(jq '[.[].stargazers_count] | add // 0' <<<"$repos_json")"
+          open_items="$(jq '[.[].open_issues_count] | add // 0' <<<"$repos_json")"
+          newest_repo="$(jq -r '[.[] | select(.pushed_at != null)] | max_by(.pushed_at) | .full_name // "n/a"' <<<"$repos_json")"
+          newest_push="$(jq -r '[.[] | select(.pushed_at != null)] | max_by(.pushed_at) | .pushed_at // "n/a"' <<<"$repos_json")"
+
+          reachable_count=0
+          failed_repos=()
+
+          while IFS=$'\t' read -r repository branch; do
+            if git ls-remote --exit-code \
+              "https://github.com/$repository.git" \
+              "refs/heads/$branch" >/dev/null 2>&1; then
+              reachable_count=$((reachable_count + 1))
+            else
+              failed_repos+=("$repository ($branch)")
+            fi
+          done < <(
+            jq -r '.[] | select(.size > 0 and .default_branch != null) | [.full_name, .default_branch] | @tsv' \
+              <<<"$repos_json"
+          )
+
+          health_status="pass"
+          if ((reachable_count != checked_count)); then
+            health_status="attention"
+          fi
+
+          workflow_url="https://github.com/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          snapshot="$(
+            jq -cn \
+              --arg date "$today" \
+              --arg scanned_at "$scanned_at" \
+              --arg status "$health_status" \
+              --arg newest_repository "$newest_repo" \
+              --arg newest_push "$newest_push" \
+              --arg workflow_url "$workflow_url" \
+              --argjson repositories "$repository_count" \
+              --argjson active "$active_count" \
+              --argjson archived "$archived_count" \
+              --argjson forks "$fork_count" \
+              --argjson checked_branches "$checked_count" \
+              --argjson reachable_branches "$reachable_count" \
+              --argjson stars "$total_stars" \
+              --argjson open_issues_and_prs "$open_items" \
+              '{date: $date, scanned_at: $scanned_at, status: $status, repositories: $repositories, active: $active, archived: $archived, forks: $forks, checked_branches: $checked_branches, reachable_branches: $reachable_branches, stars: $stars, open_issues_and_prs: $open_issues_and_prs, newest_repository: $newest_repository, newest_push: $newest_push, workflow_url: $workflow_url}'
+          )"
+
+          printf '%s\n' "$snapshot" >>"$history_file"
+
+          {
+            printf '# Daily repository health\n\n'
+            printf 'Automated portfolio snapshot generated from GitHub API metadata and live default-branch checks.\n\n'
+            printf -- '- **Date:** `%s`\n' "$today"
+            printf -- '- **Scanned at:** `%s`\n' "$scanned_at"
+            printf -- '- **Status:** `%s`\n' "$health_status"
+            printf -- '- **Owned public repositories:** %s\n' "$repository_count"
+            printf -- '- **Active / archived / forks:** %s / %s / %s\n' "$active_count" "$archived_count" "$fork_count"
+            printf -- '- **Reachable default branches:** %s / %s\n' "$reachable_count" "$checked_count"
+            printf -- '- **Stars:** %s\n' "$total_stars"
+            printf -- '- **Open issues and pull requests:** %s\n' "$open_items"
+            printf -- '- **Most recently pushed repository:** `%s` at `%s`\n' "$newest_repo" "$newest_push"
+            printf -- '- **Workflow run:** [view run](%s)\n\n' "$workflow_url"
+            printf '## Branch-check findings\n\n'
+
+            if ((${#failed_repos[@]} == 0)); then
+              printf 'All non-empty default branches were reachable.\n'
+            else
+              printf 'The following default branches need attention:\n\n'
+              for failed_repo in "${failed_repos[@]}"; do
+                printf -- '- `%s`\n' "$failed_repo"
+              done
+            fi
+          } >"$latest_file"
+
+          git config user.name "Uzair Waseem"
+          git config user.email "72595750+Assembler-Fourier@users.noreply.github.com"
+          git add -- "$report_dir"
+
+          if git diff --cached --quiet; then
+            echo "The scan produced no report changes."
+            exit 0
+          fi
+
+          git commit -m "chore(health): record portfolio scan for $today"
+          git push origin "HEAD:refs/heads/$DEFAULT_BRANCH"
