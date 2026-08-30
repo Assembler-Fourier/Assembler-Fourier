@@ -68,7 +68,9 @@ jobs:
             )"
 
             page_count="$(jq 'length' <<<"$page_json")"
-            repos_json="$(jq -c --argjson next "$page_json" '. + $next' <<<"$repos_json")"
+            repos_json="$(
+              jq -sc 'add' < <(printf '%s\n%s\n' "$repos_json" "$page_json")
+            )"
 
             if ((page_count < 100)); then
               break
