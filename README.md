@@ -1,28 +1,30 @@
 # Uzair Waseem
 
-**Software Engineer | React, TypeScript, backend APIs and QA automation**
+**Software engineer in Dublin.** I build web products, backend APIs and tools that fix real problems, and I test them properly. MSc Cybersecurity from the National College of Ireland, building software since 2020.
 
-I'm based in Dublin and available immediately for an IT role anywhere in Ireland. My experience includes React and TypeScript interfaces, Node.js integrations, software testing and defect investigation. I hold an MSc Cybersecurity from the National College of Ireland.
+Open to software engineering and QA automation roles across Ireland, starting immediately.
 
 [Portfolio](https://uzairwaseem.com) · [CV](https://uzairwaseem.com/Uzair-Waseem-CV.pdf) · [LinkedIn](https://www.linkedin.com/in/uzair-waseem/) · [Email](mailto:uzairwaseem29@gmail.com)
 
-## Start here
+## What I've built
 
-| Project | What it demonstrates | Try or review |
+| Project | What it is | Try it |
 | --- | --- | --- |
-| **[DataProof](https://github.com/Assembler-Fourier/dataproof-quality-workbench)** | Python/FastAPI CSV validation, typed data contracts, precise findings and a CLI for CI pipelines | [Sample workbench](https://dataproof-quality-workbench.vercel.app) |
-| **[ContractLens](https://github.com/Assembler-Fourier/contractlens-api-lab)** | OpenAPI response validation, change analysis and reproducible test exports | [Orders API demo](https://contractlens-api-lab.vercel.app) |
-| **[QA Automation Lab](https://github.com/Assembler-Fourier/qa-automation-lab)** | Playwright browser/API checks, negative tests, accessibility, fixtures and CI reports | [Workflow and results](https://github.com/Assembler-Fourier/qa-automation-lab/actions) |
-| **[Roster Command](https://github.com/Assembler-Fourier/employee-roster-command)** | TypeScript scheduling logic, overnight shifts and deterministic cover ranking | [Case study](https://uzairwaseem.com/projects/roster-command) |
-| **[DocuMind](https://github.com/Assembler-Fourier/documind-rag-assistant)** | PDF/DOCX ingestion, lexical retrieval, citations and optional OpenAI generation | [Evidence-mode demo](https://documind-rag-assistant.vercel.app) |
-| **[VaultWatch](https://github.com/Assembler-Fourier/vaultwatch)** | Rust, Go and Python services, a Next.js dashboard and cross-language tests | [Synthetic showcase](https://dashboard-web-three-sable.vercel.app) |
+| **[HouseFair](https://github.com/Assembler-Fourier/housefair-ai)** | Mobile-first app for a shared home: chores, groceries and split expenses. Next.js, Supabase Auth, PostgreSQL row-level security and a Playwright mobile suite. | [Sample tour](https://housemates-sand.vercel.app/demo) |
+| **[Irish Theory Test Coach](https://github.com/Assembler-Fourier/irish-theory-test-coach)** | Live driving-theory practice site with timed mocks, answer coaching, passwordless accounts and 1,277 structured questions. Vercel Functions, Neon Postgres and Stripe. | [irishtheorycoach.ie](https://irishtheorycoach.ie) |
+| **[Roster Command](https://github.com/Assembler-Fourier/employee-roster-command)** | Scheduling engine from the roster system I built for a security workforce of about 300. Coverage gaps, overnight shifts and cover suggestions that explain themselves. TypeScript and Vitest. | [Case study](https://uzairwaseem.com/projects/roster-command) |
+| **[VaultWatch](https://github.com/Assembler-Fourier/vaultwatch)** | Fraud and account-security platform across four services: Rust risk engine, Go gateway, Python agent orchestration and a Next.js dashboard. | [Showcase](https://dashboard-web-three-sable.vercel.app) |
+| **[Check Call Log](https://github.com/Assembler-Fourier/check-call-log)** | Turns the staff roster into a security control room's nightly check-call list, patrol log and shift log, printed like the paper forms. Python. | [Live demo](https://assembler-fourier.github.io/check-call-log/live/) |
+| **[BarrierWatcher](https://github.com/Assembler-Fourier/c500-guard)** | Turns a security camera into a gate alarm with local person and vehicle detection. Python, OpenCV and ONNX Runtime, no cloud subscription. | [Interactive demo](https://assembler-fourier.github.io/c500-guard/) |
 
-DataProof and ContractLens process supplied data for each request without a shared upload store. ContractLens supports a documented OpenAPI 3.0 subset and does not call target APIs. DocuMind's evidence mode needs no API key; optional generation uses the visitor's key. Roster Command contains sanitised logic and synthetic fixtures, not the private operational app. VaultWatch's hosted showcase is separate from its full Docker Compose system.
+### Testing
 
-## More work
+**[QA Automation Lab](https://github.com/Assembler-Fourier/qa-automation-lab)**: Playwright browser journeys, API contracts, accessibility checks and CI reports with traces for every failure.
 
-- [HouseFair](https://github.com/Assembler-Fourier/housefair-ai): Next.js household workflows, Supabase Auth, PostgreSQL row-level security and mobile browser tests.
-- [Irish Theory Test Coach](https://github.com/Assembler-Fourier/irish-theory-test-coach): JavaScript practice workflows, serverless APIs and deployment checks. [Public website](https://irishtheorycoach.ie).
-- [Portfolio](https://github.com/Assembler-Fourier/uzair-waseem-portfolio): Next.js case studies, accessible navigation, responsive layouts and generated one-page CVs.
+### Smaller tools
 
-My main tools are TypeScript, React, Next.js, Node.js, Python, SQL, Playwright and GitHub Actions. Specialist stacks are tied to the projects above. Each repository documents its setup, tests and limits.
+[DataProof](https://github.com/Assembler-Fourier/dataproof-quality-workbench) (CSV data contracts) · [ContractLens](https://github.com/Assembler-Fourier/contractlens-api-lab) (OpenAPI response checks) · [DocuMind](https://github.com/Assembler-Fourier/documind-rag-assistant) (document search with citations)
+
+## Tools I use most
+
+TypeScript · React · Next.js · Node.js · Python · FastAPI · PostgreSQL · Supabase · Playwright · GitHub Actions · Docker
